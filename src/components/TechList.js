@@ -24,6 +24,10 @@ class TechList extends Component {
     }
   }
 
+  componentWillUnmount() {
+    
+  }
+
   handleInputChange = e => {
     this.setState({newTech: e.target.value});
   }
